@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of reset */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.text-white{
+  color: #fff;
+}
+
+.text-italic{
+  font-style: italic;
+}
+
+.tac{
+  text-align: center;
+}
+
+.title{
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.header{
+  background-image: url('/img/banner.png');
+  width: 1920px;
+  height: 958px;
+  margin-bottom: 64px;
+}
+
+.sloganText{
+  margin-left: 806px;
+  padding-top: 356px;
+  margin-bottom: 48px;
+}
+
+.sloganText h3{
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.sloganText h1{
+  font-size: 80px;
+  line-height: 94px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.sloganText p{
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.socialMedia{
+  margin-left: 806px;
+}
+
+.socialMedia ul{
+  display: flex;
+}
+
+.socialMedia ul li{
+  margin-right: 16px;
+}
+
+.content{
+  width: 1920px;
+}
+
+.about h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.headPhoto{
+  margin-left: 768px;
+}
+
+.schoolDegree{
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.schoolDegree p{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.divide{
+  width: 384px;
+  margin-bottom: 32px;
+}
+
+.jobIntro{
+  padding-bottom: 56px;
+}
+
+.jobIntro ul li{
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+  padding-left: 32px;
+  position: relative;
+}
+
+.one::before, .two::before, .three::before{
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.one::before{
+  left: 793px;
+}
+
+.two::before{
+  left: 850px;
+}
+
+.three::before{
+  left: 789px;
+}
+
+.brand{
+  padding-top: 64px;
+  background: #000;
+}
+
+.slogan h2{
+  margin-bottom: 16px;
+}
+
+.slogan h3{
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+
+.brandSlogan{
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.brandSlogan{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.brandOne{
+  margin-bottom: 40px;
+}
+
+.brandSlogan ul{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 155px;
+}
+
+.worksTitle{
+  margin-bottom: 24px;
+}
+
+.worksIntro{
+  font-size: 20px;
+  line-height: 42px;
+  margin-bottom: 128px;
+}
+
+.worksBanner{
+  background-image: url('/img/photo-1561291386-5be50364cfb5.png');
+  height: 1558px;
+  position: relative;
+}
+
+.worksBanner p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.worksBanner ul{
+  display: flex;
+  justify-content: space-around;
+  top: -80px;
+  position: relative;
+}
+
+.worksBanner li{
+  margin-bottom: 40px;
+}
+
+.img-width-384{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.img-width-588{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.img-width-384 img{
+  max-width: 384px;
+  height: auto;
+}
+.img-width-588 img{
+  max-width: 588px;
+  height: auto;
+  width: 1200px;
+}
+
+.footer{
+  height: 317px;
+  background-color: #000;
+}
+
+.footer h2{
+  padding-top: 64px;
+}
+
+.footer p{
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 4px;
+}
